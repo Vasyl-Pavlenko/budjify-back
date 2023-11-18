@@ -1,0 +1,6 @@
+services:
+  - name: server
+    envVars:
+      NODE_ENV: production
+    buildCommand: npm run build
+    startCommand: npm run start:prod
